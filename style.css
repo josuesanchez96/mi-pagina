@@ -1,0 +1,38 @@
+
+/*cambio de tamaño de imagen*/
+.imagen-react {
+    width: 400px;
+    height: auto;
+}
+
+.imagen-socketio {
+    width: 100px;
+    height: auto;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* selector de ID */
+#titulo-principal {
+    color: white;
+    background-color: #628ea9;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Selector de clase */
+.descripcion {
+    font-size: 18px;
+    color: #444;
+    background-color: #e0e0e0;
+    padding: 15px;   
+    
+}

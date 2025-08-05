@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web - Josué Sánchez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo-principal">Bienvenido a Mi Sitio Web</h1>
+    </header>
+
+
+    <main>
+        <section>
+            <img src="webrtc.png" alt="Imagen de react" class="imagen-react">
+            <h2>¿Qué es WebRTC?</h2>
+            <p class="descripcion">WebRTC, es un proyecto de código abierto – promovido por Google Chrome, 
+                Mozilla Firefox y otros – que permite comunicaciones en tiempo real sin plug-ins 
+                a través de una API Javascript. Facilita las aplicaciones de <strong>llamadas de voz, 
+                video, chat y compartimiento de archivos entre navegadores.</strong> Utiliza un Servidor 
+                de Conferencias Web que en conjunto con un 
+                Servidor STUN es requerido para proveer la página inicial y sincronizar las conexiones 
+                entre dos nodos de este tipo.</p>
+            <a href="https://www.3cx.es/voip-sip/que-es-webrtc/" target="_blank">Mas información sobre 
+                WebRTC.</a>
+            <br><br>
+        </section>
+
+        <section>
+            <img src="socketio.png" alt="Imagen de socketio" class="imagen-socketio">
+            <h2>¿Qué es Socket.io?</h2>
+            <p class="descripcion">Socket.IO es una biblioteca de JavaScript para crear aplicaciones web en tiempo real 
+                basadas en eventos. Permite la comunicación bidireccional entre clientes y servidores 
+                mediante WebSockets y tecnologías de respaldo.</p>
+            <h3>¿Cómo funciona Socket.IO?</h3>
+            <p class="descripcion">Socket.IO funciona sobre los protocolos HTTP y WebSocket para proporcionar:</p>
+            <ul>
+                <li><strong>Comunicación en tiempo real:</strong> mensajería de baja latencia entre cliente y servidor.</li>
+                <li><strong>Arquitectura basada en eventos:</strong> usted emite y escucha eventos en ambos extremos.</li>
+                <li><strong>Reconexión automática:</strong> lógica incorporada para recuperarse de desconexiones temporales.</li>
+                <li><strong>Mecanismos de respaldo:</strong> se recurre al sondeo largo si los WebSockets no están disponibles.</li>
+            </ul>
+            <a href="https://ably.com/topic/socketio" target="_blank">Mas información sobre Socket.io</a>
+        </section>
+
+        <section>
+            <br>         
+            <button onclick="mostrarMensaje()">Haz clic aquí</button>
+        </section>
+    </main>
+
+    <footer>
+    <p>&copy; 2025 Sitio Web realizado por Josué David Sánchez López.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
